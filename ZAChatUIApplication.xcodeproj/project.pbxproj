@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08F1D1AE1956995C49FE56DD /* libPods-ZAChatUIApplicationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FA2ED405C2A1F48166A7CD /* libPods-ZAChatUIApplicationTests.a */; };
 		531E87F02327DE3000C84BC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 531E87EF2327DE3000C84BC3 /* AppDelegate.m */; };
 		531E87F62327DE3000C84BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531E87F42327DE3000C84BC3 /* Main.storyboard */; };
 		531E87F82327DE3100C84BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531E87F72327DE3100C84BC3 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		531E87FE2327DE3100C84BC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 531E87FD2327DE3100C84BC3 /* main.m */; };
 		531E88082327DE3100C84BC3 /* ZAChatUIApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 531E88072327DE3100C84BC3 /* ZAChatUIApplicationTests.m */; };
 		531E88132327DE3100C84BC3 /* ZAChatUIApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 531E88122327DE3100C84BC3 /* ZAChatUIApplicationUITests.m */; };
+		81B1C8B1FBD4837E5F8A2516 /* libPods-ZAChatUIApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADDB3C5B51201CE45B2B2B6 /* libPods-ZAChatUIApplication.a */; };
+		DD358E81EF4758EB8FF7E3F9 /* libPods-ZAChatUIApplicationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FB1C43E595B0501B232288 /* libPods-ZAChatUIApplicationUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03D04D6DB6C40C1D0F9FFEE5 /* Pods-ZAChatUIApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAChatUIApplicationUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZAChatUIApplicationUITests/Pods-ZAChatUIApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B002F5AACA3E056B923B686 /* Pods-ZAChatUIApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAChatUIApplicationTests.debug.xcconfig"; path = "Target Support Files/Pods-ZAChatUIApplicationTests/Pods-ZAChatUIApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24D3E4C524266E29076A1EB9 /* Pods-ZAChatUIApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAChatUIApplicationTests.release.xcconfig"; path = "Target Support Files/Pods-ZAChatUIApplicationTests/Pods-ZAChatUIApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		29FB1C43E595B0501B232288 /* libPods-ZAChatUIApplicationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZAChatUIApplicationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FA2ED405C2A1F48166A7CD /* libPods-ZAChatUIApplicationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZAChatUIApplicationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F3F6C6DF311883FC82CDC5 /* Pods-ZAChatUIApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAChatUIApplicationUITests.release.xcconfig"; path = "Target Support Files/Pods-ZAChatUIApplicationUITests/Pods-ZAChatUIApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4ADDB3C5B51201CE45B2B2B6 /* libPods-ZAChatUIApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZAChatUIApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		531E87EB2327DE3000C84BC3 /* ZAChatUIApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZAChatUIApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		531E87EE2327DE3000C84BC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		531E87EF2327DE3000C84BC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,6 +58,8 @@
 		531E880E2327DE3100C84BC3 /* ZAChatUIApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZAChatUIApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		531E88122327DE3100C84BC3 /* ZAChatUIApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAChatUIApplicationUITests.m; sourceTree = "<group>"; };
 		531E88142327DE3100C84BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997C5AD6E03C6563D05862C1 /* Pods-ZAChatUIApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAChatUIApplication.release.xcconfig"; path = "Target Support Files/Pods-ZAChatUIApplication/Pods-ZAChatUIApplication.release.xcconfig"; sourceTree = "<group>"; };
+		BDC6C5D98249BE110A215088 /* Pods-ZAChatUIApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAChatUIApplication.debug.xcconfig"; path = "Target Support Files/Pods-ZAChatUIApplication/Pods-ZAChatUIApplication.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B1C8B1FBD4837E5F8A2516 /* libPods-ZAChatUIApplication.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F1D1AE1956995C49FE56DD /* libPods-ZAChatUIApplicationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD358E81EF4758EB8FF7E3F9 /* libPods-ZAChatUIApplicationUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +97,8 @@
 				531E88062327DE3100C84BC3 /* ZAChatUIApplicationTests */,
 				531E88112327DE3100C84BC3 /* ZAChatUIApplicationUITests */,
 				531E87EC2327DE3000C84BC3 /* Products */,
+				B9D738A26E57F8EE2C775488 /* Pods */,
+				56DB383985D57B9A046CE0D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = ZAChatUIApplicationUITests;
 			sourceTree = "<group>";
 		};
+		56DB383985D57B9A046CE0D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ADDB3C5B51201CE45B2B2B6 /* libPods-ZAChatUIApplication.a */,
+				40FA2ED405C2A1F48166A7CD /* libPods-ZAChatUIApplicationTests.a */,
+				29FB1C43E595B0501B232288 /* libPods-ZAChatUIApplicationUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9D738A26E57F8EE2C775488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDC6C5D98249BE110A215088 /* Pods-ZAChatUIApplication.debug.xcconfig */,
+				997C5AD6E03C6563D05862C1 /* Pods-ZAChatUIApplication.release.xcconfig */,
+				0B002F5AACA3E056B923B686 /* Pods-ZAChatUIApplicationTests.debug.xcconfig */,
+				24D3E4C524266E29076A1EB9 /* Pods-ZAChatUIApplicationTests.release.xcconfig */,
+				03D04D6DB6C40C1D0F9FFEE5 /* Pods-ZAChatUIApplicationUITests.debug.xcconfig */,
+				43F3F6C6DF311883FC82CDC5 /* Pods-ZAChatUIApplicationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 531E88172327DE3100C84BC3 /* Build configuration list for PBXNativeTarget "ZAChatUIApplication" */;
 			buildPhases = (
+				7958890A1DD266AEFEFE7EFA /* [CP] Check Pods Manifest.lock */,
 				531E87E72327DE3000C84BC3 /* Sources */,
 				531E87E82327DE3000C84BC3 /* Frameworks */,
 				531E87E92327DE3000C84BC3 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 531E881A2327DE3100C84BC3 /* Build configuration list for PBXNativeTarget "ZAChatUIApplicationTests" */;
 			buildPhases = (
+				317F2C0ADB483C24219F7DF8 /* [CP] Check Pods Manifest.lock */,
 				531E87FF2327DE3100C84BC3 /* Sources */,
 				531E88002327DE3100C84BC3 /* Frameworks */,
 				531E88012327DE3100C84BC3 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 531E881D2327DE3100C84BC3 /* Build configuration list for PBXNativeTarget "ZAChatUIApplicationUITests" */;
 			buildPhases = (
+				E552E057BCB36B8288B1D481 /* [CP] Check Pods Manifest.lock */,
 				531E880A2327DE3100C84BC3 /* Sources */,
 				531E880B2327DE3100C84BC3 /* Frameworks */,
 				531E880C2327DE3100C84BC3 /* Resources */,
@@ -251,6 +295,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		317F2C0ADB483C24219F7DF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZAChatUIApplicationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7958890A1DD266AEFEFE7EFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZAChatUIApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E552E057BCB36B8288B1D481 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZAChatUIApplicationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		531E87E72327DE3000C84BC3 /* Sources */ = {
@@ -427,6 +540,7 @@
 		};
 		531E88182327DE3100C84BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC6C5D98249BE110A215088 /* Pods-ZAChatUIApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -444,6 +558,7 @@
 		};
 		531E88192327DE3100C84BC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997C5AD6E03C6563D05862C1 /* Pods-ZAChatUIApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -461,6 +576,7 @@
 		};
 		531E881B2327DE3100C84BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B002F5AACA3E056B923B686 /* Pods-ZAChatUIApplicationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +596,7 @@
 		};
 		531E881C2327DE3100C84BC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24D3E4C524266E29076A1EB9 /* Pods-ZAChatUIApplicationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +616,7 @@
 		};
 		531E881E2327DE3100C84BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D04D6DB6C40C1D0F9FFEE5 /* Pods-ZAChatUIApplicationUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NLA5R24DG;
@@ -517,6 +635,7 @@
 		};
 		531E881F2327DE3100C84BC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F3F6C6DF311883FC82CDC5 /* Pods-ZAChatUIApplicationUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NLA5R24DG;

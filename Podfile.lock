@@ -1,0 +1,20 @@
+PODS:
+  - ComponentKit (0.29):
+    - Yoga (~> 1.14)
+  - Yoga (1.14.0)
+
+DEPENDENCIES:
+  - ComponentKit (~> 0.29)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ComponentKit
+    - Yoga
+
+SPEC CHECKSUMS:
+  ComponentKit: f8ceb6ffdf33e0c229eac8aadac5df2329902d41
+  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
+
+PODFILE CHECKSUM: fea3c2739f03902708f00970a39e822ea57579ac
+
+COCOAPODS: 1.7.2

@@ -1,0 +1,1 @@
+../../../ComponentKit/ComponentKit/Core/CKComponentViewClass.h
