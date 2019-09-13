@@ -16,6 +16,14 @@
 		531E88082327DE3100C84BC3 /* ZAChatUIApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 531E88072327DE3100C84BC3 /* ZAChatUIApplicationTests.m */; };
 		531E88132327DE3100C84BC3 /* ZAChatUIApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 531E88122327DE3100C84BC3 /* ZAChatUIApplicationUITests.m */; };
 		81B1C8B1FBD4837E5F8A2516 /* libPods-ZAChatUIApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADDB3C5B51201CE45B2B2B6 /* libPods-ZAChatUIApplication.a */; };
+		C2FE78F3232B29B70016834A /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE78F2232B29B70016834A /* Message.m */; };
+		C2FE78F6232B2C020016834A /* TextMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE78F5232B2C020016834A /* TextMessage.m */; };
+		C2FE78F9232B2C0D0016834A /* ImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE78F8232B2C0D0016834A /* ImageMessage.m */; };
+		C2FE78FC232B2F060016834A /* MessageComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = C2FE78FB232B2F060016834A /* MessageComponent.mm */; };
+		C2FE78FF232B34C70016834A /* MessageHeaderComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = C2FE78FE232B34C70016834A /* MessageHeaderComponent.mm */; };
+		C2FE7904232B35120016834A /* MessageFooterComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = C2FE7903232B35120016834A /* MessageFooterComponent.mm */; };
+		C2FE790A232B3C9F0016834A /* MessageContentComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = C2FE7909232B3C9F0016834A /* MessageContentComponent.mm */; };
+		C2FE790D232B4A970016834A /* ChatViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C2FE790C232B4A970016834A /* ChatViewController.mm */; };
 		DD358E81EF4758EB8FF7E3F9 /* libPods-ZAChatUIApplicationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FB1C43E595B0501B232288 /* libPods-ZAChatUIApplicationUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +68,22 @@
 		531E88142327DE3100C84BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		997C5AD6E03C6563D05862C1 /* Pods-ZAChatUIApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAChatUIApplication.release.xcconfig"; path = "Target Support Files/Pods-ZAChatUIApplication/Pods-ZAChatUIApplication.release.xcconfig"; sourceTree = "<group>"; };
 		BDC6C5D98249BE110A215088 /* Pods-ZAChatUIApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAChatUIApplication.debug.xcconfig"; path = "Target Support Files/Pods-ZAChatUIApplication/Pods-ZAChatUIApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		C2FE78F1232B29B70016834A /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		C2FE78F2232B29B70016834A /* Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		C2FE78F4232B2C020016834A /* TextMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextMessage.h; sourceTree = "<group>"; };
+		C2FE78F5232B2C020016834A /* TextMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextMessage.m; sourceTree = "<group>"; };
+		C2FE78F7232B2C0D0016834A /* ImageMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageMessage.h; sourceTree = "<group>"; };
+		C2FE78F8232B2C0D0016834A /* ImageMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMessage.m; sourceTree = "<group>"; };
+		C2FE78FA232B2F060016834A /* MessageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageComponent.h; sourceTree = "<group>"; };
+		C2FE78FB232B2F060016834A /* MessageComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MessageComponent.mm; sourceTree = "<group>"; };
+		C2FE78FD232B34C70016834A /* MessageHeaderComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageHeaderComponent.h; sourceTree = "<group>"; };
+		C2FE78FE232B34C70016834A /* MessageHeaderComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MessageHeaderComponent.mm; sourceTree = "<group>"; };
+		C2FE7902232B35120016834A /* MessageFooterComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageFooterComponent.h; sourceTree = "<group>"; };
+		C2FE7903232B35120016834A /* MessageFooterComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MessageFooterComponent.mm; sourceTree = "<group>"; };
+		C2FE7908232B3C9F0016834A /* MessageContentComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageContentComponent.h; sourceTree = "<group>"; };
+		C2FE7909232B3C9F0016834A /* MessageContentComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MessageContentComponent.mm; sourceTree = "<group>"; };
+		C2FE790B232B4A970016834A /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		C2FE790C232B4A970016834A /* ChatViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ChatViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +139,11 @@
 		531E87ED2327DE3000C84BC3 /* ZAChatUIApplication */ = {
 			isa = PBXGroup;
 			children = (
+				C2FE78F0232B280C0016834A /* View */,
+				C2FE78EE232B27FB0016834A /* Component */,
+				C2FE78ED232B27F00016834A /* Model */,
 				531E87EE2327DE3000C84BC3 /* AppDelegate.h */,
 				531E87EF2327DE3000C84BC3 /* AppDelegate.m */,
-				531E87F42327DE3000C84BC3 /* Main.storyboard */,
 				531E87F72327DE3100C84BC3 /* Assets.xcassets */,
 				531E87F92327DE3100C84BC3 /* LaunchScreen.storyboard */,
 				531E87FC2327DE3100C84BC3 /* Info.plist */,
@@ -164,8 +190,45 @@
 				03D04D6DB6C40C1D0F9FFEE5 /* Pods-ZAChatUIApplicationUITests.debug.xcconfig */,
 				43F3F6C6DF311883FC82CDC5 /* Pods-ZAChatUIApplicationUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2FE78ED232B27F00016834A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE78F1232B29B70016834A /* Message.h */,
+				C2FE78F2232B29B70016834A /* Message.m */,
+				C2FE78F4232B2C020016834A /* TextMessage.h */,
+				C2FE78F5232B2C020016834A /* TextMessage.m */,
+				C2FE78F7232B2C0D0016834A /* ImageMessage.h */,
+				C2FE78F8232B2C0D0016834A /* ImageMessage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2FE78EE232B27FB0016834A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE78FA232B2F060016834A /* MessageComponent.h */,
+				C2FE78FB232B2F060016834A /* MessageComponent.mm */,
+				C2FE78FD232B34C70016834A /* MessageHeaderComponent.h */,
+				C2FE78FE232B34C70016834A /* MessageHeaderComponent.mm */,
+				C2FE7902232B35120016834A /* MessageFooterComponent.h */,
+				C2FE7903232B35120016834A /* MessageFooterComponent.mm */,
+				C2FE7908232B3C9F0016834A /* MessageContentComponent.h */,
+				C2FE7909232B3C9F0016834A /* MessageContentComponent.mm */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		C2FE78F0232B280C0016834A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				531E87F42327DE3000C84BC3 /* Main.storyboard */,
+				C2FE790B232B4A970016834A /* ChatViewController.h */,
+				C2FE790C232B4A970016834A /* ChatViewController.mm */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,7 +434,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				531E87FE2327DE3100C84BC3 /* main.m in Sources */,
+				C2FE78F3232B29B70016834A /* Message.m in Sources */,
+				C2FE790D232B4A970016834A /* ChatViewController.mm in Sources */,
+				C2FE7904232B35120016834A /* MessageFooterComponent.mm in Sources */,
+				C2FE78F6232B2C020016834A /* TextMessage.m in Sources */,
+				C2FE78FF232B34C70016834A /* MessageHeaderComponent.mm in Sources */,
+				C2FE78F9232B2C0D0016834A /* ImageMessage.m in Sources */,
+				C2FE790A232B3C9F0016834A /* MessageContentComponent.mm in Sources */,
 				531E87F02327DE3000C84BC3 /* AppDelegate.m in Sources */,
+				C2FE78FC232B2F060016834A /* MessageComponent.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
